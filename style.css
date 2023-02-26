@@ -1,0 +1,24 @@
+body {
+    background-color: #4f4949;
+}
+
+.title {
+    text-align: center;
+    margin-top: 100px;
+    color: #fff;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.square {
+    background-color: #fff;
+    border: 1px solid #000;
+}
